@@ -5,8 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_1_FormularioStackPanel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Formulario StackPanel" Height="300" Width="800">
     <Grid>
-
+        <StackPanel>
+            <StackPanel Margin="5">
+                <Label FontWeight="Bold" FontSize="16">Nombre</Label>
+                <TextBox Margin="5"/>
+                <StackPanel.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Offset="0.0" Color="CornflowerBlue"/>
+                        <GradientStop Offset="1.0" Color="LightBlue"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel Margin="5">
+                <Label FontWeight="Bold" FontSize="16">Dirección</Label>
+                <TextBox Margin="5"/>
+                <StackPanel.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Offset="0.0" Color="Green"/>
+                        <GradientStop Offset="1.0" Color="LightGreen"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel Margin="5">
+                <Label FontWeight="Bold" FontSize="16">Correo electrónico</Label>
+                <TextBox Margin="5"/>
+                <StackPanel.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Offset="0.0" Color="Magenta"/>
+                        <GradientStop Offset="1.0" Color="LightPink"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                <Button Width="100" Margin="7">Aceptar</Button>
+                <Button Width="100" Margin="7">Cancelar</Button>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
