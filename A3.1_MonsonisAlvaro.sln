@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Mosaico", "3_Mosaico\3_Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_VisorImagenes", "4_VisorImagenes\4_VisorImagenes.csproj", "{C6FC0824-8E30-41CF-9EEC-AD20B12BA7DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Calculadora", "5_Calculadora\5_Calculadora.csproj", "{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{C6FC0824-8E30-41CF-9EEC-AD20B12BA7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6FC0824-8E30-41CF-9EEC-AD20B12BA7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6FC0824-8E30-41CF-9EEC-AD20B12BA7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
