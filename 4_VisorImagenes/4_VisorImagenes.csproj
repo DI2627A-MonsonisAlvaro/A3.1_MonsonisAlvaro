@@ -9,4 +9,9 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Assets\espanita.webp" />
+      <Resource Include="Assets\espanita.webp" />
+    </ItemGroup>
+
 </Project>
