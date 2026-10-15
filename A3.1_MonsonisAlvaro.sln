@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_FormularioStackPanel", "1_FormularioStackPanel\1_FormularioStackPanel.csproj", "{0400F040-BA8F-47F5-824D-2E9A0F627CCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_EquiposNBA", "2_EquiposNBA\2_EquiposNBA.csproj", "{2F1DE5BC-112C-4FFC-B57C-27C036A00818}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0400F040-BA8F-47F5-824D-2E9A0F627CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0400F040-BA8F-47F5-824D-2E9A0F627CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0400F040-BA8F-47F5-824D-2E9A0F627CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1DE5BC-112C-4FFC-B57C-27C036A00818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1DE5BC-112C-4FFC-B57C-27C036A00818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1DE5BC-112C-4FFC-B57C-27C036A00818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1DE5BC-112C-4FFC-B57C-27C036A00818}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
