@@ -6,23 +6,23 @@
         xmlns:local="clr-namespace:_5_Calculadora"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="250">
-    <Viewbox>
+    <Viewbox Stretch="Fill">
         <Grid RowDefinitions="1*,2*,Auto">
-            <TextBox Margin="1" Grid.Row="0">
-                1234567890
+            <TextBox x:Name="textBoxNumeros" Margin="1" Grid.Row="0">
+
             </TextBox>
             <Grid Grid.Row="1" HorizontalAlignment="Stretch" ColumnDefinitions="1*,1*,1*" RowDefinitions="1*,1*,1*">
-                <Button Margin="1" Grid.Row="0" Grid.Column="0">1</Button>
-                <Button Margin="1" Grid.Row="0" Grid.Column="1">2</Button>
-                <Button Margin="1" Grid.Row="0" Grid.Column="2">3</Button>
-                <Button Margin="1" Grid.Row="1" Grid.Column="0">4</Button>
-                <Button Margin="1" Grid.Row="1" Grid.Column="1">5</Button>
-                <Button Margin="1" Grid.Row="1" Grid.Column="2">6</Button>
-                <Button Margin="1" Grid.Row="2" Grid.Column="0">7</Button>
-                <Button Margin="1" Grid.Row="2" Grid.Column="1">8</Button>
-                <Button Margin="1" Grid.Row="2" Grid.Column="2">9</Button>
+                <Button Tag="1" Click="Button_OnClick" Margin="1" Grid.Row="0" Grid.Column="0">1</Button>
+                <Button Tag="2" Click="Button_OnClick" Margin="1" Grid.Row="0" Grid.Column="1">2</Button>
+                <Button Tag="3" Click="Button_OnClick" Margin="1" Grid.Row="0" Grid.Column="2">3</Button>
+                <Button Tag="4" Click="Button_OnClick" Margin="1" Grid.Row="1" Grid.Column="0">4</Button>
+                <Button Tag="5" Click="Button_OnClick" Margin="1" Grid.Row="1" Grid.Column="1">5</Button>
+                <Button Tag="6" Click="Button_OnClick" Margin="1" Grid.Row="1" Grid.Column="2">6</Button>
+                <Button Tag="7" Click="Button_OnClick" Margin="1" Grid.Row="2" Grid.Column="0">7</Button>
+                <Button Tag="8" Click="Button_OnClick" Margin="1" Grid.Row="2" Grid.Column="1">8</Button>
+                <Button Tag="9" Click="Button_OnClick" Margin="1" Grid.Row="2" Grid.Column="2">9</Button>
             </Grid>
-            <Button Margin="1" Grid.Row="2">0</Button>
+            <Button Tag="0" Click="Button_OnClick" Margin="1" Grid.Row="2">0</Button>
         </Grid>
     </Viewbox>
 </Window>

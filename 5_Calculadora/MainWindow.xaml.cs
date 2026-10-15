@@ -20,4 +20,12 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void Button_OnClick(object sender, RoutedEventArgs e)
+    {
+        if (sender is Button btn)
+        {
+            textBoxNumeros?.Text = textBoxNumeros.Text + btn.Tag;
+        }
+    }
 }
