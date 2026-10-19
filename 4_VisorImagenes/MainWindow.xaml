@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_4_VisorImagenes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="425" Width="700">
+        Title="4 Visor Imagenes" Height="425" Width="700">
     <DockPanel>
         <StackPanel Margin="10" DockPanel.Dock="Bottom" Background="LightBlue" Orientation="Horizontal">
             <Label Margin="5" FontFamily="Rubik" FontSize="20">N de imagenes: 10</Label>
