@@ -1,0 +1,24 @@
+﻿<Window x:Class="_7_Formulario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7_Formulario"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ColumnDefinitions="1*,Auto" RowDefinitions="Auto,1*,1*,1*,Auto">
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" FontSize="40">Formulario</TextBlock>
+        <Border Grid.Row="1" Grid.Column="0" Background="Aqua">
+            <StackPanel>
+                
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="0">
+            <StackPanel>
+                
+            </StackPanel>
+        </Border>
+        <Image Grid.Row="1" Grid.RowSpan="3" Grid.Column="1"></Image>
+        <TextBlock Grid.Row="4">Álvaro Monsonís Mas</TextBlock>
+    </Grid>
+</Window>
