@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_VisorImagenes", "4_VisorI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Calculadora", "5_Calculadora\5_Calculadora.csproj", "{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Estaciones", "6_Estaciones\6_Estaciones.csproj", "{A63C4D8F-DF74-4E76-85C6-B851CF72B980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90147EA-EBC5-446E-BAAC-DE6876FE4A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63C4D8F-DF74-4E76-85C6-B851CF72B980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63C4D8F-DF74-4E76-85C6-B851CF72B980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63C4D8F-DF74-4E76-85C6-B851CF72B980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63C4D8F-DF74-4E76-85C6-B851CF72B980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
