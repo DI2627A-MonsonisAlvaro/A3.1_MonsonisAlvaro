@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_5_Calculadora"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="250">
+        Title="5 Calculadora" Height="400" Width="250">
     
     <Grid RowDefinitions="1*,2*,Auto">
         <Border Margin="1" Grid.Row="0" BorderThickness="1" BorderBrush="Black">
