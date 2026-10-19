@@ -6,19 +6,59 @@
         xmlns:local="clr-namespace:_7_Formulario"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid ColumnDefinitions="1*,Auto" RowDefinitions="Auto,1*,1*,1*,Auto">
-        <TextBlock Grid.Row="0" HorizontalAlignment="Center" FontSize="40">Formulario</TextBlock>
-        <Border Grid.Row="1" Grid.Column="0" Background="Aqua">
+    <Grid ColumnDefinitions="2*,1*" RowDefinitions="Auto,Auto,Auto,1*,Auto">
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontSize="40">Formulario</TextBlock>
+        <Border Grid.Row="1" Grid.Column="0"
+                Margin="5" Padding="5"
+                BorderBrush="Black" BorderThickness="3" CornerRadius="8"
+                Background="LightSkyBlue">
             <StackPanel>
-                
+                <Grid ColumnDefinitions="60,*,2,Auto" Margin="2">
+                    <TextBlock Grid.Column="0">Nombre</TextBlock>
+                    <TextBox Grid.Column="1"/>
+                    <Image Grid.Column="3" Source="Assets/info.png" Width="20" ToolTip="Esto es el nombre"/>
+                </Grid>
+                <Grid ColumnDefinitions="60,*,2,Auto" Margin="2">
+                    <TextBlock Grid.Column="0">Edad</TextBlock>
+                    <TextBox Grid.Column="1"/>
+                    <Image Grid.Column="3" Source="Assets/info.png" Width="20" ToolTip="Esto es la edad"/>
+                </Grid>
+                <Grid ColumnDefinitions="60,*,2,Auto" Margin="2">
+                    <TextBlock Grid.Column="0">Direccion</TextBlock>
+                    <TextBox Grid.Column="1"/>
+                    <Image Grid.Column="3" Source="Assets/info.png" Width="20" ToolTip="Esto es la direccion"/>
+                </Grid>
             </StackPanel>
         </Border>
-        <Border Grid.Row="2" Grid.Column="0">
-            <StackPanel>
-                
+        <Border Grid.Row="2" Grid.Column="0"
+                Margin="5" Padding="5"
+                BorderBrush="Black" BorderThickness="3" CornerRadius="8"
+                Background="Beige">
+            <StackPanel Orientation="Horizontal">
+                <GroupBox Header="Aficiones" BorderBrush="Gray" Width="200">
+                    <StackPanel Margin="8">
+                        <CheckBox>Hacer deporte</CheckBox>
+                        <CheckBox>Viajar</CheckBox>
+                        <CheckBox>Ver series</CheckBox>
+                        <CheckBox>Leer comics</CheckBox>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="Estado civil" BorderBrush="Gray" Width="200">
+                    <StackPanel Margin="8">
+                        <RadioButton>Soltero</RadioButton>
+                        <RadioButton>Casado</RadioButton>
+                        <RadioButton>Divorciado</RadioButton>
+                        <RadioButton>Viudo</RadioButton>
+                    </StackPanel>
+                </GroupBox>
             </StackPanel>
         </Border>
-        <Image Grid.Row="1" Grid.RowSpan="3" Grid.Column="1"></Image>
-        <TextBlock Grid.Row="4">Álvaro Monsonís Mas</TextBlock>
+        <Image Grid.Row="1" Grid.RowSpan="3" Grid.Column="1"
+               Source="Assets/foto.jpg" Stretch="Fill" Margin="12"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Margin="5" FontSize="20">Álvaro Monsonís Mas</TextBlock>
+        <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" Margin="5" HorizontalAlignment="Right">
+            <Button Padding="5" Width="100" Margin="5,0,0,0">Aceptar</Button>
+            <Button Padding="5" Width="100" Margin="5,0,0,0">Cancelar</Button>
+        </StackPanel>
     </Grid>
 </Window>
