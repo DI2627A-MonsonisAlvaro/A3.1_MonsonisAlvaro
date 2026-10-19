@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2_EquiposNBA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="900">
+        Title="2 Equipos NBA" Height="450" Width="900">
     <StackPanel>
         <Border BorderBrush="Black" BorderThickness="3" Margin="10" CornerRadius="3">
             <StackPanel>
