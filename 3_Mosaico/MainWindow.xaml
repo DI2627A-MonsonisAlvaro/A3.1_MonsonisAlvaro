@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3_Mosaico"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300">
+        Title="3 Mosaico" Height="300" Width="300">
     <DockPanel>
         <DockPanel Background="Black" LastChildFill="True">
             <Label DockPanel.Dock="Top" Background="MediumPurple" Height="50"/>
